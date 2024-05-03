@@ -1,0 +1,7 @@
+
+spring:
+  application:
+    name: demo-sqs-connect
+
+aws:
+  region: us-east-1 
