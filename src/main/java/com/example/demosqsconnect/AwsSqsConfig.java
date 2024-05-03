@@ -15,6 +15,7 @@ public class AwsSqsConfig {
 
     @Bean
     public SqsClient sqsClient() {
+    	//Log adicionar
         return SqsClient.builder()
                 .region(Region.of(awsRegion))
                 .credentialsProvider(WebIdentityTokenFileCredentialsProvider.create())
